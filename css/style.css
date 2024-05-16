@@ -2278,6 +2278,7 @@ nav.navbar.bootsnav .heder-menu-button .navbar-toggler {float: none; padding: 0;
 .header-searchbar a i {position: relative;}
 .search-icon {padding-right: 10px;}
 .header-social-icon a:last-child i {margin-right: 0;}
+.icon-bar{color: white;}
 
 /* menu center */
 .menu-center .header-right {flex: 1 2 auto;}
