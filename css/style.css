@@ -77,8 +77,19 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 ::-webkit-input-placeholder {color: #6f6f6f; text-overflow: ellipsis;}
 ::-moz-placeholder {color: #6f6f6f; text-overflow: ellipsis; opacity:1;} 
 :-ms-input-placeholder {color: #6f6f6f; text-overflow: ellipsis; opacity:1;}
+.feature-box-5 {
+    padding-left: 75px;
+}
+
+.feature-box-5 i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .new-container {
-   
+    padding-right: 15px;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,9 +100,7 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 40px ;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -100,6 +109,18 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 .new-col {
     margin: 0 15px;
 }
+
+/* Reduce space between specific sections */
+.reduced-spacing {
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-bottom: 40px; /* Adjust padding if necessary */
+}
+
+.reduced-spacing + .reduced-spacing {
+    margin-top: 0; /* Remove top margin */
+    padding-top: 80px; /* Adjust padding if necessary */
+}
+
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: 15px; padding-left: 15px;}
 .row {margin-right: -15px; margin-left: -15px;}
 .row>* {padding-right: 15px; padding-left: 15px;}
