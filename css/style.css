@@ -77,7 +77,29 @@ ul, ol, dl {list-style-position: outside; margin-bottom: 25px}
 ::-webkit-input-placeholder {color: #6f6f6f; text-overflow: ellipsis;}
 ::-moz-placeholder {color: #6f6f6f; text-overflow: ellipsis; opacity:1;} 
 :-ms-input-placeholder {color: #6f6f6f; text-overflow: ellipsis; opacity:1;}
+.new-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.new-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-col {
+    margin: 0 15px;
+}
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {padding-right: 15px; padding-left: 15px;}
 .row {margin-right: -15px; margin-left: -15px;}
 .row>* {padding-right: 15px; padding-left: 15px;}
